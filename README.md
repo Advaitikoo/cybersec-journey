@@ -78,9 +78,9 @@ Built AI tools (RAG systems, chatbots) and kept finding security gaps I didn't k
 
 \- Started roadmap.sh ethical hacking course
 
-\- Switching to Ubuntu daily driver
+\- Switching to Ubuntu daily driver in the next week 
 
-\- TODO: First TryHackMe room
+\- First TryHackMe room
 
 
 
