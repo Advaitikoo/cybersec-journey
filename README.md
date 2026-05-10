@@ -94,3 +94,11 @@ Built AI tools (RAG systems, chatbots) and kept finding security gaps I didn't k
 
 \- \[PortSwigger Web Security Academy](https://portswigger.net/web-security)
 
+
+### 2026-05-10 (evening)
+- Completed basic intro TryHackMe rooms
+- Learned: Networking basics — IP addresses, MAC addresses, MAC spoofing, ping
+- MAC spoofing: changing your network interface's MAC address to impersonate another device or bypass filtering
+- Ping: basic connectivity test using ICMP echo requests
+- Started Pre-Security path
+- Tomorrow: Continue Pre-Security, Ubuntu install
