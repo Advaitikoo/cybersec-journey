@@ -102,3 +102,49 @@ Built AI tools (RAG systems, chatbots) and kept finding security gaps I didn't k
 - Ping: basic connectivity test using ICMP echo requests
 - Started Pre-Security path
 - Tomorrow: Continue Pre-Security, Ubuntu install
+
+  
+
+## Roadmap.sh Ethical Hacking — Lesson 4: Essential Command-Line Interface (CLI) for Network Diagnostics (Windows & Linux)
+
+**Completed:** May 14, 2026
+
+**What I learned:**
+- Testing Connectivity using ping and traceroute
+- IP Configuration and interface using ipconfig
+- Checking Active Connections using Netstat
+- Host Discovery and DNS Enumeration
+
+**SOC lens (how to detect/prevent):**
+- - **Ping sweeps:** Monitor for sequential ICMP requests across subnets — indicator of reconnaissance
+- **Traceroute:** Harder to detect directly, but TTL anomalies or unusual paths can flag tunneling
+- **Netstat on endpoints:** EDR tools should baseline normal connections, alert on new listening ports or unusual outbound sessions
+- **DNS enumeration:** Log and alert on high-volume DNS queries, zone transfer attempts (AXFR), and subdomain brute-forcing patterns
+- **Key takeaway:** Reconnaissance is invisible unless you're logging and correlating. Most orgs don't watch DNS closely enough.
+
+**Hands-on practice:** None yet — theory only
+
+**Time spent:** ~45 min
+
+**Next:** Lesson 5
+
+
+
+## Roadmap.sh Ethical Hacking — Lesson 5: Data Protection Essentials: Encryption, Backups, and Secure Authentication
+
+**Completed:** May 15, 2026
+
+**What I learned:**
+- Encryption and its 2 main types - Symmetric and Asymmetric
+- Using Hash Functions for data integrity
+- Secure authorization and what is needed for a secure multi factor authentication (MFA)
+- Data Backups and the 3-2-1 rule
+- What the industry standard tools are for all above processes 
+
+**Hands-on practice:** None yet — theory only
+
+**Time spent:** ~45 min
+
+**Next:** Lesson 6 
+
+**Note:** Skipped daily commit yesterday. Back on track today.
